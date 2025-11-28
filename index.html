@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buddhi Kumar Chaudhary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+ 
+  <button id="theme-toggle">🌓</button>
+
+  
+  <button id="backToTop">↑</button>
+
+  <div class="container">
+
+   
+    <header>
+      <h1>Buddhi Kumar Chaudhary</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+   
+    <main>
+      <section class="card hero" id="about">
+        <img src="arnold.jpeg" alt="Profile Photo" />
+        <div class="intro">
+          <h2>Hi !! I’m Buddhi Kumar Chaudhary</h2>
+          <p>
+            I’m from Barju-6, Sunsari. I completed my high school at Arpan English School and +2 at Greenland Secondary School.
+            Later, I completed an IATA Travel & Tourism Foundation course from Zabeel International Institute, Dubai.
+            Currently, I’m studying BSc (Hons) in Computer Science at Biratnagar International College.
+          </p>
+          <p class="muted">
+           I’ve always been fascinated by the precision and responsibility that comes with air marshaling. The idea of standing on the tarmac, guiding massive aircraft safely into position with just hand signals and wands, feels both powerful and purposeful. It’s not just about waving signals—it’s about being the pilot’s eyes on the ground, ensuring safety, coordination, and smooth operations in one of the most complex environments in the world.
+          </p>
+          <div class="cta">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn secondary" href="mailto:your.email@example.com">Email me</a>
+          </div>
+        </div>
+      </section>
+
+     
+      <section id="projects" class="card projects">
+        <h3>Selected Projects</h3>
+
+        <div class="project-list">
+
+          <div class="project-card" data-url="https://example.com/project1">
+            <h4>Tour Booking Site</h4>
+            <p>Travel website </p>
+          </div>
+
+          <div class="project-card" data-url="https://example.com/project2">
+            <h4>Inventory Management System</h4>
+            <p>Pharmacy/stock tracking app</p>
+          </div>
+
+          <div class="project-card" data-url="https://example.com/project3">
+            <h4>Portfolio V1</h4>
+            <p>My first portfolio version hosted online</p>
+          </div>
+
+        </div>
+
+        <p class="muted">Cards open links using JS (no &lt;a&gt; tags)</p>
+      </section>
+
+
+      <section id="skills" class="card skills">
+        <h3>Skills</h3>
+
+        <div class="skill-bar" data-percent="95">
+          <span></span>
+          <label>HTML</label>
+        </div>
+
+        <div class="skill-bar" data-percent="90">
+          <span></span>
+          <label>CSS</label>
+        </div>
+
+        <div class="skill-bar" data-percent="50">
+          <span></span>
+          <label>JavaScript</label>
+        </div>
+
+        <div class="skill-bar" data-percent="95">
+          <span></span>
+          <label>IATA / Amadeus</label>
+        </div>
+      </section>
+
+      
+      <section id="media" class="card">
+        <h3>Media </h3>
+
+        <div class="media-box">
+         
+          <video controls width="100">
+            <source src="air_marshalling.mp4" type="video/mp4" />
+           
+          </video>
+
+        
+          <audio controls>
+            <source src="audio.mpeg" type="audio/mpeg" />
+            
+          </audio>
+
+          
+          <canvas id="myCanvas" width="300" height="150"></canvas>
+        </div>
+      </section>
+
+      
+      <section id="gallery" class="card">
+        <h3>Image Slider</h3>
+
+        <div class="slider" id="slider">
+          <button class="prev">‹</button>
+
+          <div class="slides">
+            <img src="images.jpg" />
+            <img src="download.jpg" />
+            <img src="new.jpg" />
+            <img src="ground.webp"/>
+          </div>
+
+          <button class="next">›</button>
+
+          <div class="dots"></div>
+        </div>
+      </section>
+
+      
+      <section id="contact" class="card contact">
+        <h3>Contact Me</h3>
+
+        <form id="contactForm">
+          <label>
+            Name:
+            <input type="text" id="name" required />
+          </label>
+
+          <label>
+            Email:
+            <input type="email" id="email" required />
+          </label>
+
+          <label>
+            Message:
+            <textarea id="message" required></textarea>
+          </label>
+
+          <button type="submit">Send</button>
+          <div id="formFeedback"></div>
+        </form>
+
+      </section>
+
+     
+      <section class="card">
+        <h3>Flexbox vs Grid </h3>
+        <p>
+          <strong>Flexbox</strong> is one-dimensional (row or column layout).  
+          <strong>Grid</strong> is two-dimensional (rows + columns).  
+        </p>
+        <p>
+          This page uses Flexbox for layout and project cards.
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
